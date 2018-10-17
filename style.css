@@ -1,0 +1,153 @@
+body {
+  font-family: 'Gafata', serif;
+  text-align: justified;
+  background-color: #ffffe3;
+
+}
+
+h1, h2, h3 {
+  font-family: 'Allerta Stencil', sans-serif;
+  color: #fdfdc4;
+  text-shadow: -1px 0 #f8b500, 0 1px #f8b500, 1px 0 #f8b500, 0 -1px #f8b500;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #F3D7CA;
+}
+
+.center-text {
+  text-align: center;
+}
+
+
+.container {
+  align-items: center;
+
+}
+.card {
+  width: 550px;
+  background-color: rgba(210, 145, 188, 0.88);
+  color: white;
+  padding: 20px;
+  /*margin-bottom: 20px;*/
+  border-radius: 4px;
+  width: 50%;
+  margin: 20px auto;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+
+}
+
+#me {
+  border-radius: 150px;
+  border: 1px solid #c3b4d2;
+  width: 100px;
+  height: 100px;
+}
+
+.button {
+  color: #573697;
+  background-color: #dcb5ff;
+  border: 3px solid #77529e;
+  border-radius: 50px;
+  padding: 10px 15px;
+  font-weight: lighter;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.button:hover {
+  opacity: 1;
+  color: white;
+  text-decoration: none;
+  border: 2px solid #dcb5ff;
+  background-color: #ccffec;
+  -o-transition:.7s;
+  -ms-transition:.7s;
+  -moz-transition:.7s;
+  -webkit-transition:.7s;
+  transition:.7s;
+}
+
+.img {
+  border-radius: 5px;
+}
+
+.img:hover {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+i, .fab {
+  color: #ccffec;
+}
+
+i, .fab:hover {
+  color: #dcb5ff;
+   -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+
+}
+.share {
+  color: #ccffec;
+}
+
+.list-inline {
+  list-style: none;
+  /*padding-left: 0px;*/
+
+}
+.list-inline li{
+  display: inline-block;
+  padding: 0px 50px;
+  padding-left: 0px;
+}
+
+@keyframes animatedBackground {
+  from { background-position: 0 0; }
+  to { background-position: 100% 0; }
+}
+
+#animate-area {
+  background-image: url("images/bananas.png");
+  background-position: 0px 0px;
+  background-repeat: repeat;
+  animation: animatedBackground 40s linear infinite;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+
