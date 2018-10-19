@@ -156,3 +156,8 @@ i, .fab:hover {
 td {
     overflow: auto;
 }
+
+@media (max-width: 540px) {
+  .card {
+    width: 70%;
+  }
